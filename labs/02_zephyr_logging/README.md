@@ -1,4 +1,4 @@
-# Lab 01 - Hello Zephyr
+# Lab 02 - Zephyr Logging Framework
 
 ## Objective
 
