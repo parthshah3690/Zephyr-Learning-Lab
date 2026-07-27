@@ -1,6 +1,5 @@
 
 # Lab 04 - Zephyr Race Conditions & Shared Data
-=======
 
 ## Objective
 
