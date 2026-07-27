@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Lab 04 - Zephyr Race Conditions & Shared Data
+=======
+# Lab 03 - Zephyr Race Conditions & Shared Data
+>>>>>>> ade9cf5a950c0eca345bcf70a6bcb47dc43569e4
 
 ## Objective
 
