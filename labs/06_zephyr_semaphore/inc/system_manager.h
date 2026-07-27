@@ -1,0 +1,22 @@
+#ifndef _SYSTEM_MANAGER_H_
+#define _SYSTEM_MANAGER_H_
+
+#include <zephyr/kernel.h>
+#include <zephyr/logging/log.h>
+
+typedef struct 
+{
+    int32_t temperature;
+    uint32_t vehicle_speed;
+    bool communication_ok;
+}system_status_t;
+
+extern void system_manager_init(void);
+extern void system_manager_thread(void* p1, void* p2, void* p3);
+
+extern void system_manager_set_temperature(int32_t temperature);
+extern void system_manager_set_communication_status(bool comm_status);
+extern system_status_t system_manager_get_system_status(void);
+extern void system_manager_wait_for_an_update(void);
+
+#endif // _SYSTEM_MANAGER_H_
