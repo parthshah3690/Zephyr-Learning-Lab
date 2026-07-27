@@ -21,8 +21,7 @@ west build -t run
 
 ## Expected Output
 
-*** Booting Zephyr ***
-
+```text
 *** Booting Zephyr OS build v4.4.0-8172-g1c2bf123944d ***
 [00:00:00.000,000] <inf> power_manager: Power management initialized
 [00:00:00.000,000] <inf> system_manager: System initialization started
@@ -75,3 +74,4 @@ west build -t run
 [00:00:25.250,000] <inf> sensor_manager: Temperature value : 50 degC
 [00:00:26.260,000] <inf> sensor_manager: Temperature value : 51 degC
 [00:00:27.090,000] <inf> comm_manager: Communication status OK
+```

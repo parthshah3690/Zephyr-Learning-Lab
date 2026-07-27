@@ -20,7 +20,7 @@ west build -b qemu_cortex_m3 -p always .
 west build -t run
 
 ## Expected Output
-
+```text
 *** Booting Zephyr OS build v4.4.0-8172-g1c2bf123944d ***
 [00:00:00.000,000] <inf> main: Zephyr Logging started!
 [00:00:00.000,000] <inf> system_manager: System initialization started
@@ -803,3 +803,4 @@ west build -t run
 [00:04:06.440,000] <wrn> sensor_manager: Temperature is high
 [00:04:06.440,000] <inf> communication_manager: Communication cycle 245
 [00:04:06.440,000] <err> communication_manager: Communication timeout detected
+```

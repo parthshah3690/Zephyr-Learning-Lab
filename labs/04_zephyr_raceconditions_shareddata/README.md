@@ -35,6 +35,8 @@ This lab intentionally demonstrates an unsafe design that will be improved in su
                     system_status
 
               (Shared Memory - Unsafe)
+```
+---
 
 ## Build
 
@@ -46,6 +48,7 @@ west build -t run
 
 ## Expected Output
 
+```text
 *** Booting Zephyr ***
 
 *** Booting Zephyr OS build v4.4.0-8172-g1c2bf123944d ***
@@ -185,3 +188,4 @@ west build -t run
 [00:01:08.680,000] <inf> sensor_manager: Temperature value : 93 degC
 [00:01:09.230,000] <inf> comm_manager: Communication status OK
 [00:01:09.690,000] <inf> sensor_manager: Temperature value : 94 degC
+```

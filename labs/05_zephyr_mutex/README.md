@@ -61,7 +61,7 @@ west build -b qemu_cortex_m3 -p always .
 west build -t run
 
 ## Expected Output
-
+```text
 *** Booting Zephyr OS build v4.4.0-8172-g1c2bf123944d ***
 [00:00:00.000,000] <inf> power_manager: Power management initialized
 [00:00:00.000,000] <inf> system_manager: System initialization started
@@ -108,3 +108,4 @@ west build -t run
 [00:00:20.020,000] <inf> power_manager: Reading system status...
 [00:00:20.020,000] <inf> power_manager: Temperature : 45, Vehicle Speed : 0, Communication : OK
 [00:00:20.020,000] <inf> power_manager: Power state : ACTIVE
+```
